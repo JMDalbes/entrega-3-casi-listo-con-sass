@@ -1,14 +1,34 @@
-/* index */
+
 @font-face {
   font-family: mi fuente;
   src: url(fontos/GlacialIndifference-Regular.otf);
 }
 
-body {
-  background-color: white;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-#logo {
+body{
+  background-color: white
+}
+
+h1{
+  font-family:  "mi fuente";
+  color: blueviolet;
+  text-align: center;
+}
+
+
+
+h2{
+  font-family: "mi fuente";
+  color: blueviolet;
+  text-align: center;
+}
+
+
+#logo{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -16,41 +36,95 @@ body {
   height: 94px;
 }
 
-h1 {
-  font-family: "mi fuente";
-  text-align: center;
-  -webkit-text-decoration: solid;
-   text-decoration: solid;
+.navbar-toggler-icon {
+  color: #1f53c5;
 }
 
-h2 {
+.container-fluid a{
   font-family: "mi fuente";
   color: blueviolet;
-  text-align: center;
 }
 
-#fila1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-   justify-content: space-around;
+.container-fluid a:hover{
+  color: blue;
 }
 
-#fila2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+#navbarSupportedContent ul li a{
+  font-family: "mi fuente";
+  color: blueviolet;
 }
 
-#fila3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+#navbarSupportedContent ul li a:hover{
+  color: blue;
+}
+
+#portada{
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: center;
+}
+
+#portada img{
+  display: inline;
+  width: 750px;
+  height: 250px;
+}
+
+#menu ul{
+  list-style: none;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#menu ul li{
+  display:inline-block;
+  border-style: outset;
+
+}
+
+#menu ul li a{
+  text-decoration: none;
+  font-family: "mi fuente";
+}
+
+#menu ul li a:hover{
+  color: rgb(9, 9, 225);
+}
+
+#pag1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#pag1 img{
+  display: inline;
+  width: 250px;
+  height: 200px;
+}
+
+#pag2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#pag2 img{
+  width: 250px;
+  height: 200px;
+}
+
+#pag3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#pag3 img{
+  width: 250px;
+  height: 200px;
 }
 
 /* footer */
@@ -343,3 +417,59 @@ address {
 
 /* mail/contacto*/
 /*# sourceMappingURL=estilo.css.map */
+
+/*
+@font-face {
+  font-family: mi fuente;
+  src: url(fontos/GlacialIndifference-Regular.otf);
+}
+
+body {
+  background-color: white;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 220px;
+  height: 94px;
+}
+
+h1 {
+  font-family: "mi fuente";
+  text-align: center;
+  -webkit-text-decoration: solid;
+   text-decoration: solid;
+}
+
+h2 {
+  font-family: "mi fuente";
+  color: blueviolet;
+  text-align: center;
+}
+
+#fila1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+   justify-content: space-around;
+}
+
+#fila2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+#fila3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+*/
