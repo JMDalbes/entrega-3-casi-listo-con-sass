@@ -317,12 +317,12 @@ p {
   margin-top: 5px;
 }
 
-fieldset {
-  width: 400px;
+#fondo {
+  width: 460px;
   background-color: #24303c;
   padding: 30px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 50px;
   border-radius: 4px;
   font-family: "mi fuente";
   color: white;
@@ -356,11 +356,11 @@ label {
 }
 
 .form-register {
-  width: 400px;
+  width: 348px;
   background-color: #24303c;
-  padding: 30px;
+  padding: 38px;
   margin: auto;
-  margin-top: 100px;
+  margin: 1px auto auto;
   border-radius: 4px;
   font-family: "mi fuente";
   color: white;
@@ -415,61 +415,117 @@ address {
   color: blueviolet;
 }
 
+/* responsive*/
+
+@media (max-width:1440px){
+  #portada{
+    display: flex;
+    justify-content: center;
+  }
+  #portada img{
+    display: inline;
+    width: 1400px;
+    height: 450px;
+  }
+}
+
+@media (max-width:1200px){
+  #portada{
+    display: flex;
+    justify-content: center;
+  }
+  #portada img{
+    display: inline;
+    width: 1100px;
+    height: 450px;
+  }
+}
+
+@media (max-width:1024px){
+  #portada{
+    display: flex;
+    justify-content: center;
+  }
+  #portada img{
+    display: inline;
+    width: 950px;
+    height: 350px;
+  }
+}
+
+@media (max-width:992px){
+  #portada{
+    display: flex;
+    justify-content: center;
+  }
+  #portada img{
+    display: inline;
+    width: 900px;
+    height: 300px;
+  }
+}
+
+@media (max-width:768px){
+  #portada{
+    display: flex;
+    justify-content: center;
+  }
+  #portada img{
+    display: inline;
+    width: 700px;
+    height: 250px;
+  }
+}
+
+@media (max-width:620px){
+  #portada{
+    display: flex;
+    justify-content: center;
+  }
+  #portada img{
+    display: inline;
+    width: 1550px;
+    height: 200px;
+  }
+}
+
+@media (max-width:576px){
+  #portada{
+    display: flex;
+    justify-content: center;
+  }
+  #portada img{
+    display: inline;
+    width: 450px;
+    height: 150px;
+  }
+}
+
+@media (max-width:425px){
+  #portada{
+    display: flex;
+    justify-content: center;
+  }
+  #portada img{
+    display: inline;
+    width: 350px;
+    height: 130px;
+  }
+}
+
+@media (max-width:374px){
+  #portada{
+    display: flex;
+    justify-content: center;
+  }
+  #portada img{
+    display: inline;
+    width: 330px;
+    height: 100px;
+  }
+}
 /* mail/contacto*/
 /*# sourceMappingURL=estilo.css.map */
 
-/*
-@font-face {
-  font-family: mi fuente;
-  src: url(fontos/GlacialIndifference-Regular.otf);
-}
 
-body {
-  background-color: white;
-}
 
-#logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 220px;
-  height: 94px;
-}
-
-h1 {
-  font-family: "mi fuente";
-  text-align: center;
-  -webkit-text-decoration: solid;
-   text-decoration: solid;
-}
-
-h2 {
-  font-family: "mi fuente";
-  color: blueviolet;
-  text-align: center;
-}
-
-#fila1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-   justify-content: space-around;
-}
-
-#fila2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-}
-
-#fila3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-*/
