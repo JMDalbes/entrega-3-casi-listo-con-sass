@@ -138,21 +138,21 @@ p {
 /* footer */
 /* categoria */
 .categoria {
-  width: 250px;
-  height: 200px;
+  width: 350px;
+  height: 300px;
 }
 
 #babyShower {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: -ms-flexbox;
+  display: -ms-flex-pack;
 }
 
 .cardbaby {
-  width: 250px;
-  height: 200px;
+  width: 350px;
+  height: 300px;
   overflow: hidden;
 }
 
@@ -167,16 +167,16 @@ p {
 }
 
 #cumpleanos {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: -ms-flexbox;
+  display: -ms-flex-pack;
 }
 
 .cumpleanos {
-  width: 250px;
-  height: 200px;
+  width: 350px;
+  height: 300px;
   overflow: hidden;
 }
 
@@ -191,16 +191,16 @@ p {
 }
 
 #bautizo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: -ms-flexbox;
+  display: -ms-flex-pack;
 }
 
 .bautizo {
-  width: 250px;
-  height: 200px;
+  width: 350px;
+  height: 300px;
   overflow: hidden;
 }
 
@@ -210,17 +210,19 @@ p {
 }
 
 #boda {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: -ms-flexbox;
+  display: -ms-flex-pack;
   margin-bottom: 20px;
 }
 
+
+
 .boda {
-  width: 250px;
-  height: 200px;
+  width: 350px;
+  height: 300px;
   overflow: hidden;
 }
 
