@@ -318,6 +318,8 @@ p {
 .columna .articulos {
   margin-top: 5px;
 }
+/* articulos */
+/*contacto*/
 
 #fondo {
   width: 460px;
@@ -347,6 +349,17 @@ legend {
   font-size: larger;
 }
 
+select{
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "mi fuente";
+  font-size: 18px;
+}
+
+
 textarea {
   background-color: #24303c;
 }
@@ -355,6 +368,16 @@ label {
   font-family: "mi fuente";
   font-size: large;
   color: blueviolet;
+}
+
+button{
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "mi fuente";
+  font-size: 18px;
 }
 
 .form-register {
@@ -416,7 +439,7 @@ address {
   text-align: center;
   color: blueviolet;
 }
-
+/* contacto */
 /* responsive*/
 
 @media (max-width:1440px){
@@ -526,6 +549,8 @@ address {
     height: 100px;
   }
 }
+
+
 /* mail/contacto*/
 /*# sourceMappingURL=estilo.css.map */
 
